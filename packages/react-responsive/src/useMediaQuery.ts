@@ -1,4 +1,4 @@
-import * as React from "react";
+import React from "react";
 
 const startTransitionFallbackForReact17AndBellow = (cb: () => void) => cb();
 // @ts-expect-error not supported yet
